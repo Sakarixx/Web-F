@@ -1,0 +1,120 @@
+<html lang="en" dir="ltr"><head>
+    <meta charset="utf-8">
+
+    <title>form1</title>
+  </head>
+  <body>
+
+    <style>
+
+      table {
+        border-collapse: content;
+        width: 50%;
+        border: 5px solid #000;
+      }
+
+      body {
+        background-color: #9fa8da;
+      }
+
+</style>
+  <form action="show.php" method="post">
+
+
+                        <table class="table"align="left">
+                            <tbody><tr><th>
+                            <h3>กรอกประวัติ</h3>
+                            </th>
+                            </tr><tr>
+                                <td width="50%" align="left">
+                                    <label class="text">ชื่อ - สกุล</label>
+                                </td>
+                                    <td>
+                                     <select class="items" name="initial">
+                                        <option name="initial" selected="" disabled="" value="">คำนำหน้า</option>
+                                        <option name="initial" value="นาย">นาย</option>
+                                        <option name="initial" value="นาง">นาง</option>
+                                        <option name="initial" value="นางสาว">นางสาว</option>
+                                    </select>
+                                    </td>
+                                <td>
+                                <input class="items" type="text" name="name" placeholder="ชื่อ - สกุล" align="center">
+                            </td>
+
+                            </tr>
+                            <tr>
+                                <td align="left">
+                                    <label class="text">เพศ </label>
+                                </td>
+                                <td>
+                                    <input type="radio" class="btn-check" name="gender" value="ชาย" autocomplete="off" checked="">
+                                    <label class="text-a">ชาย</label>
+
+                                    <input type="radio" class="btn-check" name="gender" value="หญิง" autocomplete="off">
+                                    <label class="text-a">หญิง</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left">
+                                    <label class="text">ในหนึ่งวันคุณใช้อุปกรณ์ไหนบ่อยที่สุด</label>
+                                </td>
+                                <td align="left">
+                                    <input type="checkbox" class="btn-check" value="PC" name="type[]"><label class="text-a">PC</label><br>
+
+                                    <input type="checkbox" class="btn-check" value="Notebook" name="type[]"><label class="text-a">Notebook</label><br>
+
+                                    <input type="checkbox" class="btn-check" value="Netbook" name="type[]"><label class="text-a">Netbook</label><br>
+
+                                    <input type="checkbox" class="btn-check" value="Tablet" name="type[]"><label class="text-a">Tablet</label><br>
+
+                                    <input type="checkbox" class="btn-check" value="Smartphone" name="type[]"><label class="text-a">Smartphone</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left">
+                                    <label class="text">Email </label>
+                                </td>
+                                <td>
+                                    <input class="items" type="text" name="email" placeholder="Email">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left">
+                                    <label class="text">Username </label>
+                                </td>
+                                <td>
+                                    <input class="items" type="text" name="username" placeholder="Username">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left">
+                                    <label class="text">Password </label>
+                                </td>
+                                <td>
+                                    <input class="items" type="text" name="password" placeholder="Password">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left">
+                                    <label class="text">Confirm Password </label>
+                                </td>
+                                <td>
+                                    <input class="items" type="text" name="confirmpassword" placeholder="Confirm Password">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button id="submit" type="submit" class="btn-primary">Reset</button>
+                                </td>
+                                <td>
+                                    <button id="submit" type="submit" class="btn-primary">Submit</button>
+                                </td>
+                            </tr>
+
+
+                    </tbody></table>
+</form>
+  </center>
+
+
+</body></html>

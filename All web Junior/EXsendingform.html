@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body><center>
+  <form action="EXprocess.php" method="post">
+  <fieldset><legend><font color="#0000FF"><b>Students' Record</b></font></legend>
+    <table width="60%" border="0" cellpadding="5" cellspacing="0">
+      <tr bgcolor= "#0066ff">
+  	  <td colspan="2" align="center"><font color="white"><b>Student Biography</b></font>
+  	  </td>
+    </tr>
+  <tr>
+    <td>Initial</td>
+    <td align="left">
+          <input type="radio" name="initial" value="Mr" checked>Mr.
+          <input type="radio" name="initial" value="Ms">Ms.
+    </td>
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td align="left"><input type="text" name="name" size="50" maxlength="50"></td>
+   </tr>
+  <tr>
+      <td>School</td>
+    <td>
+      <select name="school">
+           <option value="1">Electrical Engineering
+           <option value="2">Computer Engineering
+     <option value="3">Civil Engineering
+      </select>
+</td>
+</tr>
+<tr>
+  <td>Email</td>
+  <td align="left"><input type="text" name="email" size="50" maxlength="50"></td>
+</tr>
+<tr>
+<td colspan = "2" align="center"><input type="submit" name="submit" value ="Submit">
+      <input type="reset" name="reset" value="&nbsp;Reset&nbsp;"></td>
+</tr>
+</table>
+<hr width="60%" color="red">
+</fieldset></form>
+</center>
+</body>
+</html>
